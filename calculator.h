@@ -7,6 +7,9 @@ class Calculator
         int Add (double, double);
         int Sub (double, double);
         int Mul (double, double);
+
+        template<typename T>
+        T Increment(T&& data);
 };
 
 #endif//CALCULATOR_H
